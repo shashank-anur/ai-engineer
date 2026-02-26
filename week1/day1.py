@@ -1,0 +1,18 @@
+#name = input("Enter your name: ")
+#age = int(input("Enter your age: "))
+#print("Hello", name)
+#print("Next your you will be", age+1)
+#num1= float(input("Enter first number:"))
+#num2 = float(input("Enter second number:"))
+#print("Addition",num1+num2)
+#print("Subtraction",num1+num2)
+#print("Multiplication",num1*num2)
+#print("Division",num1/num2)
+number= int(input("Enter a number:"))
+if number % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+sentence = input("Enter a sentence:")
+words = sentence.split()
+print("number of words",len(words))
